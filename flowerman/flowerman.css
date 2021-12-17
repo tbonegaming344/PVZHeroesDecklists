@@ -1,0 +1,82 @@
+
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid #010101;
+  color: #0060AA;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FBB719;
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #08266E;
+    border-top: 10px solid #8E0400;
+    border-bottom: 10px solid #FF9D00;
+    max-width: 100%;
+    height: auto;
+  }
+  body{
+    background-color:  #E20025;
+    }
+  h1{
+    Color: #FFED10;
+    }
+  a{
+    color: #010101;
+    }
+    html{
+  scroll-behavior: smooth; 
+  cursor: url("/flowerman/flowerman.ico"), default;
+}
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(flowerman.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #447BBE;
+  border: 10px solid #567450;
+  border-bottom: 10px solid #5C4770;
+  border-top: 10px solid #424928;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(flowerman.ico);
+  width: 20px;
+  height: 20px;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+border-bottom: 10px solid #4A6142;
+}
+.dark-mode h1{
+  color: #BAE8E8;
+}
+.dark-mode a{
+  color: #5A5B60;
+}
+.dark-mode img{
+  border: 10px solid #F185B3;
+  border-top: 10px solid #D52484;
+  border-bottom: 10px solid #90007F;
+  border-left: 10px solid #3D0043;
+}

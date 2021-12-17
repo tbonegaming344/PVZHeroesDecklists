@@ -1,0 +1,82 @@
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid #722f37;
+  color: #E9B406;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #29446F;
+  text-align: center;
+  }
+  img{
+    float: left; 
+    border: 10px solid #01030F;
+    border-top: 10px solid #146FA4;
+    border-bottom: 10px solid #090506;
+      max-width: 100%;
+  height: auto;
+  }
+  
+  body{
+    background-color: #800000;
+  }
+  h1{
+    Color: #fc5a8d;
+  }
+  a{
+    color: #1CB3C8;
+  }
+    html{
+  scroll-behavior: smooth; 
+  cursor: url("/cheph/cheph.ico"), default;
+}
+html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(cheph.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #f4c430;
+  border: 10px solid #17691D;
+  border-top: 10px solid #60A818;
+  border-bottom: 10px solid #287320;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(/cheph/cheph.ico);
+  width: 20px;
+  height: 20px;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #FFE459;
+}
+.dark-mode h1{
+  color: #39A388;
+}
+.dark-mode a{
+  color: #1C7947;
+}
+.dark-mode img{
+  border: 10px solid #FDD2BF;
+  border-top: 10px solid #B97A95;
+  border-bottom: 10px solid #8236CB;
+  border-left: 10px solid #290FBA;
+}

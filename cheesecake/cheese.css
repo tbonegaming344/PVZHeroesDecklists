@@ -1,0 +1,81 @@
+p.dashed {border-style: dashed;}
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/cheesecake/cheesecake.ico"), default;
+  }
+  p {
+  border-bottom: solid #5F7583;
+  color: #C91610;
+  font-family: "Times New Roman", Times, serif;
+   background-color: #102F44;
+   text-align: center;}
+   img{
+     float: left; 
+     border: 10px solid #2F374E;
+     border-top: 10px solid #D7DFEA;
+     border-bottom: 10px solid #349FFF;
+       max-width: 100%;
+  height: auto;
+   }
+        html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(cheesecake.ico);
+  width: 100px;
+  height: 100px;
+  }
+  html::-webkit-scrollbar-track{
+  background-color:  #152C52;
+  border: 10px solid #FACB50;
+  border-top: 10px solid #C42100;
+  border-bottom: 10px solid #0E1012;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(cheesecake.ico);
+  width: 30px;
+  height: 30px;
+}
+
+body{
+  background-color: #0075B5;
+}
+a{
+  color: #CE0000;
+}
+h1{
+  color: #4A6473;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #EFCB26;
+}
+.dark-mode h1{
+  color: #009DAE;
+}
+.dark-mode a{
+  color: #71DFE7;
+}
+.dark-mode img{
+  border: 10px solid #2C272E;
+  border-top: 10px solid #753188;
+  border-left: 10px solid #E59934;
+  border-bottom: 10px solid #9AE66E;
+}

@@ -1,0 +1,94 @@
+p.dashed {
+  border-style: dashed;
+  }
+  p {
+  border-bottom: solid #0073cf;
+  color:#BB371A;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #9D712A;
+  text-align: center;
+  }
+  h1{
+    color: #F02C03;
+  }
+img{
+  float: left;
+  border: 10px solid #DB0B0B;
+  border-top: 10px solid #B80909;
+  border-bottom: 10px solid #3A4087;
+  border-left: 10px solid #397037;
+}
+  body{
+    background-color: #EBA83A;
+    }
+  a{
+    color:#FFF8D9;
+    }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/zombies/rb.ico"), default;
+}
+
+html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(rb.ico);
+  width: 100px;
+  height: 100px;}
+html::-webkit-scrollbar-track{
+  background-color:  #00b7eb;
+  border: 10px solid #CF1931;
+  border-top: 10px solid #AD132D;
+  border-bottom: 10px solid #D9991A;
+  border-left: 10px solid #EAA61E;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #4E2388;
+}
+.dark-mode h1{
+  color: #304CC8;
+}
+.dark-mode a{
+  color: #138715;
+}
+.dark-mode img{
+  border: 10px solid #FCC201;
+  border-top: 10px solid #DA9101;
+  border-bottom: 10px solid #CA302F;
+}

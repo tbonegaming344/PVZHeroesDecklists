@@ -1,0 +1,81 @@
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid #FFAB02;
+  color:#29446F;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #E9B406;
+  text-align: center; 
+  }
+  img{
+    float: left;
+    border: 10px solid #B72403;
+    border-top: 10px solid #EF6E15;
+    border-bottom: 10px solid #EACA3A;
+    border-left: 10px solid #EAEAEA;
+     max-width: 100%;
+    height: auto;
+  }
+  body{
+    background-color:#0F2D45;
+    }
+  a{
+    color:#AA221B;
+    }
+  h1{
+    color: #CB3E2A;
+    }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/michael/micheal.ico"), default;
+}
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(micheal.ico);
+  width: 100px;
+  height: 100px;
+  }
+  html::-webkit-scrollbar-track{
+  background-color:  #FFAB02;
+  border: 10px solid #9E292E;
+  border-top: 10px solid #D79441;
+  border-bottom: 10px solid #FAFAF0;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(micheal.ico);
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #276789;
+}
+.dark-mode h1{
+  color: #FFFED6;
+}
+.dark-mode a{
+  color: #84790B;
+}
+.dark-mode img{
+  border: 10px solid #B7B9F4;
+  border-top: 10px solid #5254D8;
+  border-bottom: 10px solid #192294;
+  border-left: 10px solid #000278;
+}

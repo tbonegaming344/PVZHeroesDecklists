@@ -1,0 +1,57 @@
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid #FFFEFC;
+  color:  #CC3A2C;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #F7EB4A;
+ text-align: center;}
+body{
+    background-color: #3C6DA8;
+    }
+  h1{Color: #616F77;}
+  a{color: #EDE435;}
+  img{
+    float:left; 
+    padding: 0, 10px, 0, 0;
+      max-width: 100%;
+  height: auto;
+  border: 10px solid #F55C47;
+  border-top: 10px solid #9FE6A0;
+  border-bottom: 10px solid #4AA96C;
+    }
+    .header{
+      margin-right: auto; 
+      margin-left: auto;
+      background-image: url(dozzaheader.jpeg);
+    }
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color:  #DB9F30;
+}
+.dark-mode h1{
+  color: #9D84B7;
+}
+.dark-mode a{
+  color: #D5D5D5;
+}
+.dark-mode img{
+  border: 10px solid #512D6D;
+  border-top: 10px solid #F8485E;
+  border-bottom: 10px solid #EEEEEE;
+  border-left: 10px solid #00C1D4;
+}

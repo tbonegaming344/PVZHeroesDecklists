@@ -1,0 +1,97 @@
+p.dashed {
+  border-style: dashed;
+  }
+  p {
+  border-bottom: solid #363540;
+  color: #E4DCEF;
+  font-family: "Times New Roman", Times, serif; 
+  background-color: #C1432A;
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #542E71;
+    border-top: 10px solid #FB3640;
+    border-bottom: 10px solid #FDCA40;
+    border-left:10px solid #A799B7;
+  }
+  body{
+    background-color:#EE0E51;
+    }
+  a{
+    color:#363540;
+    }
+  h1{
+    color: #505458;
+    }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/plants/gs.ico"), default;
+}
+
+html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(gs.ico);
+  width: 100px;
+  height: 100px;}
+html::-webkit-scrollbar-track{
+  background-color:  #004b49;
+  border: 10px solid #233E8B;
+  border-bottom: 10px solid #1EAE98;
+  border-top: 10px solid #A9F1DF;
+  border-left: 10px solid #FFFFC7;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #C67ACE;
+}
+.dark-mode h1{
+  color: #D8F8B7;
+}
+.dark-mode a{
+color: #FF9A8C;
+
+}
+.dark-mode img{
+  border: 10px solid #FEFFDE;
+  border-top: 10px solid #DDFFBC;
+  border-bottom: 10px solid #91C788;
+  border-left: 10px solid #52734D;
+}

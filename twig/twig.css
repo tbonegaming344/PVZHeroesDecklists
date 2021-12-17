@@ -1,0 +1,75 @@
+p.dashed {
+  border-style: dashed;
+  }
+  p {
+  border-bottom: solid #4682b4;
+  color:#cc5500;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FACB50;
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #0075B5;
+    border-top: 10px solid #102F44;
+    border-bottom: 10px solid #C91610;
+    border-left: 10px solid #F2B741;
+     max-width: 100%;
+    height: auto;
+  }
+  body{
+    background-color:	#A9A9A9;
+    }
+  h1{
+    Color: gold;
+  }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/twig/twig.ico"), default;
+}
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(twig.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #ccff00;
+  border: 10px solid #567450;
+  border-top: 10px solid #5C4770;
+  border-bottom: 10px solid #424928;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #27323F;
+}
+.dark-mode h1{
+  color: #7A2C2A;
+}
+.dark-mode a{
+  color: #7A5429;
+}
+.dark-mode img{
+  border: 10px solid #C6994F;
+  border-top: 10px solid #3F4F20;
+  border-bottom: 10px solid #5B4031;
+  border-left: 10px solid #CBBEB4;
+}

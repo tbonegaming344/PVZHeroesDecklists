@@ -1,0 +1,93 @@
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid #F29191;
+  color: #EC625F;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #1B070B;
+  text-align: center;}
+  img{
+    float: left;
+    border: 10px solid #FBF46D;
+    border-top: 10px solid #B4FE98;
+    border-bottom: 10px solid #77E4D4;
+    border-left: 10px solid #998CEB;
+  }
+
+  body{
+    background-color: #525252;
+    }
+  a{
+    color: #313131;
+    }
+  h1{
+    color: #313131;
+    }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/zombies/zm.ico"), default;
+}
+ 
+ html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(zm.ico);
+  width: 100px;
+  height: 100px;}
+html::-webkit-scrollbar-track{
+  background-color:  #00ffff;
+  border: 10px solid #000D6B;
+  border-top: 10px solid #9C19E0;
+  border-bottom: 10px solid #FF5DA2;
+  border-left: 10px solid #99DDCC;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #FF1700;
+}
+.dark-mode h1{
+  color: #7c1717;
+}
+.dark-mode a{
+  color: #986b46;
+}
+.dark-mode img{
+  border: 10px solid #F90716;
+  border-top: 10px solid #FF5403;
+  border-bottom: 10px solid #FFCA03;
+  border-left: 10px solid #FFF323;
+}

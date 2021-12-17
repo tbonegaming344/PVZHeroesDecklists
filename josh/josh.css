@@ -1,0 +1,77 @@
+
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid #7AAE3D;
+  color:  #96C93C;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #4E0C6B;
+  text-align: center; 
+}
+img{
+  float: left; 
+  border: 10px solid #567450;
+  border-top: 10px solid #5C4770;
+  border-bottom: 10px solid #424928;
+   max-width: 100%;
+    height: auto;
+}
+  body{
+    background-color:  #7554A3;
+  }
+  h1{
+    Color: #F6971F;
+    }
+  a{
+    color: #7AAE3D;
+    }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/josh/josh.ico"), default;
+}
+  
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(josh.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #FEC20F;
+  border: 10px solid #424926;
+  border-top: 10px solid #1B4426;
+  border-bottom: 10px solid #242804;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(josh.ico);
+  width: 20px;
+  height: 20px;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #932217;
+}
+.dark-mode h1{
+  color: #A26D15; 
+}
+.dark-mode a{
+  color: #146FA4;
+}

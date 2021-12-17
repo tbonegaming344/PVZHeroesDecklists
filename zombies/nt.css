@@ -1,0 +1,91 @@
+p.dashed {
+  border-style: dashed;
+  }
+  p {
+  border-bottom: solid #0073cf;
+  color:#FFE194;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #2C5E6B;
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #454253;
+    border-bottom: 10px solid #000000;
+    border-top: 10px solid #5D6A95;
+    border-left: 10px solid #008DC8;
+}
+  body{
+    background-color: #FFB319;
+    }
+  a{
+    color:#E8F6EF;
+    }
+  h1{
+    color: #B8DFD8;
+    }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/zombies/nt.ico"), default;
+}
+  
+  html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(nt.ico);
+  width: 100px;
+  height: 100px;}
+html::-webkit-scrollbar-track{
+  background-color:  #ba160c;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #CC0000;
+}
+.dark-mode h1{
+  color: #990033;
+}
+.dark-mode a{
+  color: #660033;
+}
+.dark-mode img{
+  border: 10px solid #A788A8;
+  border-top: 10px solid #6F3C89;
+  border-bottom: 10px solid #306493;
+  border-left: 10px solid #1B2B42;
+}

@@ -1,0 +1,74 @@
+html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(plastic.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #39ff14;
+  border: 10px solid #FCD259;
+  border-top: 10px solid #191A0A;
+  border-bottom: 10px solid #8E272A;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(plastic.ico);
+  height: 20px;
+  width:20px;
+}
+html{
+  scroll-behavior: smooth; 
+  cursor: url("/plasticpea/plastic.ico"), default;
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid orange;
+  color:#00539CFF;
+    font-family: "Times New Roman", Times, serif;
+  background-color: #CDC5EA;
+  text-align: center;}
+  img{ 
+      float: left; 
+      border: 10px solid #FCFCCF;
+      border-bottom: 10px solid #EFCB26;
+      border-top: 10px solid #E1E2AA;
+       max-width: 100%;
+    height: auto;
+  }
+  h1{
+    color: #5256A8;
+  }
+  Body{
+    background-color:#EEA47FFF;
+    } 
+    .dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #4E0C6B;
+}
+.dark-mode h1{
+  color: #048A2B;
+}
+.dark-mode a{
+  color: #CDC5EA;
+}
+.dark-mode img{
+  border: 10px solid #B93328;
+  border-top: 10px solid #0C0C0C;
+  border-bottom: 10px solid #B4B5B7;
+}

@@ -1,0 +1,191 @@
+.dropbtn {
+  background-color: #4CAF50;
+  color: blue;
+  padding: 16px;
+  font-size: 16px;
+  border: 10px solid #BC4737;
+  border-top: 10px solid #979E8D;
+  border-bottom: 10px solid #C49446;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 10px solid #13274C;
+  border-top: 10px solid #892B1A;
+  border-bottom: 10px solid #BA9C44; 
+}
+
+.dropdown-content a {
+  color: #FCFCCF;
+  background-color: #EFCB26;
+  border: 10px solid #000000;
+   border-top: 10px solid #BC0F17;
+  border-left: 10px solid #0C1119;
+  border-bottom: 10px solid #B62729;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #E1E2AA;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom:solid red;
+  color:#ff8c00;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #0E1012;
+  text-align: center;
+  }
+  h1{
+    color: #6B3988;
+  }
+  img{
+    float: left;
+    border: 10px solid #4A6142;
+    border-top: 10px solid #739E73;
+    border-bottom: 10px solid #122B12;
+     max-width: 100%;
+    height: auto;
+  }
+  body{
+    background-color:#59fffc;
+    }
+  a{
+    color:#8b0000;
+    }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/yoyo/yoyo.ico"), default;
+}
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(yoyo.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #008b8b;
+  border: 10px solid #2F0404;
+  border-top: 10px solid #040A16;
+  border-bottom: 10px solid #A7741E;
+  border-left: 10px solid #F9CC7C; 
+}
+html::-webkit-scrollbar-button{
+  background-image: url(yoyo.ico);
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #563F32;
+}
+.dark-mode h1{
+  color: #8C6F4A;
+}
+.dark-mode a{
+  color: #464946;
+}
+.dark-mode .dropbtn{
+background-color: #5F297D;
+color: #E9741B; 
+ padding: 16px;
+  font-size: 16px;
+  border: 10px solid #424926;
+  border-top: 10px solid #1B4426;
+  border-bottom: 10px solid #242804;
+  cursor: pointer;
+}
+.dark-mode .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2F4338;
+  color: #506756;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 10px solid #43131B;
+  border-top: 10px solid #561417;
+  border-bottom: 10px solid #351A17;
+}
+.dark-mode .dropdown-content a {
+  color: #61292C;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 10px solid #BBA164;
+  border-top: 10px solid #9A2629;
+  border-bottom: 10px solid #9E292E;
+  border-left: 10px solid #D79441;
+}
+
+.dark-mode .dropdown-content a:hover {
+  background-color: #FCD259;
+  color: #191A0A;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #8E272A;
+}
+.dark-mode img{
+  border: 10px solid #626772;
+  border-top: 10px solid #3F617C;
+  border-bottom: 10px solid #141414;
+}

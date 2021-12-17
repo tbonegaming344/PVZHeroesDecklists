@@ -1,0 +1,74 @@
+p.dashed {border-style: dashed;}
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/berserk/berserk.ico"), default;
+}
+  p {
+  border-bottom: solid #0073cf;
+  color:#a6d608;
+  font-family: "Times New Roman", Times, serif;
+   background-color: purple;
+   text-align: center;
+   }
+   img{
+     float: left;
+     border: 10px solid #FFAB02;
+     border-top: 10px solid #EF0703;
+     border-bottom: 10px solid #7F506B;
+       max-width: 100%;
+  height: auto;
+   }
+   h1{
+     color: #96C8D6;
+   }
+html::-webkit-scrollbar-track{
+  background-color:  #3fff00;
+  border: 10px solid #2F374E;
+  border-top: 10px solid #D7DFEA;
+  border-bottom: 10px solid #349FFF;
+}
+html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(berserk.ico);
+  width: 100px;
+  height: 100px;
+  }
+html::-webkit-scrollbar-button{
+  background-image: url(berserk.ico);
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #F5B5FC;
+}
+.dark-mode h1{
+  color: #96F7D2;
+}
+.dark-mode a{
+  color: #B31E6F;
+}
+.dark-mode img{
+  border: 10px solid #FFF78F;
+  border-top: 10px solid #22B9CA;
+  border-bottom: 10px solid #0C99C1;
+  border-left: 10px solid #F30CD4;
+}

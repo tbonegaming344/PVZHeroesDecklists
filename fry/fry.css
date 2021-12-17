@@ -1,0 +1,207 @@
+.dropbtn {
+  background-color:  #162CA2;
+  color: #1849CA;
+  padding: 16px;
+  font-size: 16px;
+  border: 10px solid #010101;
+  border-bottom: 10px solid #75D923;
+  border-top: 10px solid #276543;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #EC2004;
+  border: 10px solid #E2DD94;
+  border-top: 10px solid #990316;
+  border-bottom: 10px solid #160405;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #C31D10;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 10px solid #B19B54;
+  border-top: 10px solid #332620;
+  border-bottom: 10px solid #756A6E;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #FFFFFF;
+}
+
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid #282e3c;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #D96B17;
+  text-align: center;
+  }
+  body{background-color: #3C3C3E;}
+  img{float: left;
+  border: 8px solid #111421;
+  border-top: 8px solid #858D99;
+  border-bottom: 8px solid #686B46;
+   max-width: 100%;
+  height: auto;
+}
+  a{
+    color: 	#7B5D21;
+    }
+  h1{
+    Color: 	#988829;
+    }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/fry/fry.ico"), default;
+}
+
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(fry.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #4f86f7;
+  border: 10px solid #563F32;
+  border-top: 10px solid #8C6F4A;
+  border-bottom: 10px solid #464946;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(fry.ico);
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #F6CE4B;
+
+}
+.dark-mode h1{
+  color: #DE413C;
+}
+.dark-mode .dropbtn{
+background-color: #202308;
+color: #010F07; 
+ padding: 16px;
+  font-size: 16px;
+  border: 10px solid #2F0404;
+  border-top: 10px solid #040A16;
+  border-bottom: 10px solid #A7741E;
+  cursor: pointer;
+}
+.dark-mode .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #343434;
+  color: #070707;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 10px solid #2F0000;
+  border-top: 10px solid #793F0C;
+  border-bottom: 10px solid #310000;
+}
+.dark-mode .dropdown-content a {
+  color: #A90101;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 10px solid #1D1D1C;
+  border-top: 10px solid #323239;
+  border-bottom: 10px solid #707080;
+  border-left: 10px solid #7C1000;
+}
+
+.dark-mode .dropdown-content a:hover {
+  background-color: #F7FFFF;
+  color: #A60600;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #100203;
+  color: #C2A15A;
+}
+.dark-mode img{
+  border: 10px solid #256098;
+  border-top: 10px solid #BE0200;
+  border-bottom: 10px solid #0B2808;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}

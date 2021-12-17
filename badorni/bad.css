@@ -1,0 +1,71 @@
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid #ffe135;
+  color:#dc143c;
+  font-family: "Times New Roman", Times, serif;
+  background-color: orange;
+  text-align: center;
+}
+  img{
+    float: left;
+    border: 10px solid #E00000;
+    border-top: 10px solid #FEA52A;
+    border-bottom: 10px solid #F8EEF6;
+      max-width: 100%;
+  height: auto;
+  }
+  body{background-color: #301934;}
+  h1{Color: #838996;}
+  a{color: #ffd800;}
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/badorni/bad.ico"), default;
+}
+     html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(bad.ico);
+  width: 100px;
+  height: 100px;
+  }
+  html::-webkit-scrollbar-track{
+  background-color:  #FAB445;
+  border: 10px solid #B93328;
+  border-bottom: 10px solid #0C0C0C;
+  border-top: 10px solid #B4B5B7;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(bad.ico);
+  width: 30px;
+  height: 30px;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #145B1D;
+}
+.dark-mode h1{
+  color: #DDF796;
+}
+.dark-mode img{
+  border: 10px solid #F3FE7E;
+  border-top: 10px solid #979797;
+  border-bottom: 10px solid #757575;
+}

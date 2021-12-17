@@ -1,0 +1,96 @@
+p.dashed {
+  border-style: dashed;
+}
+  p {
+  border-bottom: solid #100203;
+  color: #C67427;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #1B3F63;
+  text-align: center;
+  }
+  body{
+    background-color: #E2DD94;
+    }
+  h1{
+    Color: #C17E4A;;
+    }
+  a{
+    color: #276543;
+    }
+    img{
+      float: left;
+      border: 10px solid #FF00E4;
+      border-top: 10px solid #ED50F1;
+      border-bottom: 10px solid #FDB9FC;
+      border-left: 10px solid #FFEDED;
+    }
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-color: #F7FFFF;
+  width: 100px;
+  height: 100px;;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #A60600;
+  border: 10px solid #FF7402;
+  border-top: 10px solid #DCE4E4;
+  border-bottom: 10px solid #DE6708;
+}
+html::-webkit-scrollbar-button{
+  background-color: #AD1C1F;
+  width: 20px;
+  height: 20px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #FF00E4;
+border-bottom: 10px dashed #7952B3;
+}
+.dark-mode h1{
+  color: #323EDD;
+}
+.dark-mode a{
+  color: #DC2ADE;
+}
+.dark-mode img{
+  border: 10px solid #EDEDED;
+  border-bottom: 10px solid #FFA41B;
+  border-top: 10px solid #FF5151;
+  border-bottom: 10px solid #9818D6;
+}

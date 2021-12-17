@@ -1,0 +1,94 @@
+p.dashed {
+  border-style: dashed;
+  }
+
+  p {
+  border-bottom:solid #FFFEFC;
+  color: #FF5335;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #4A4B4C;
+  text-allign: center;
+  }
+  h1{
+    color: #F5F263;
+  }
+  body{
+    background-color: #EEC4C4;
+    }
+  a{
+    color: #3B2E5A;
+    }
+    img{
+      float: left;
+      border:10px solid #FCC201;
+      border-bottom: 10px solid #DA9101;
+     border-top: 10px solid #CA302F
+    }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/zombies/sm.ico"), default;
+}
+
+html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(sm.ico);
+  width: 100px;
+  height: 100px;}
+html::-webkit-scrollbar-track{
+  background-color:  #008b8b;
+  border: 10px solid #4E2388;
+  border-top: 10px solid #304CC8;
+  border-bottom: 10px solid #138715;
+  border-left: 10px solid #FCC201;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #FF950C;
+}
+.dark-mode h1{
+  color: #FEDC03;
+}
+.dark-mode a{
+  color: #7CDA01;
+}
+.dark-mode img{
+  border: 10px solid #5B4DB7;
+  border-top: 10px solid #42ADC7;
+  border-bottom: 10px solid #81D152;
+}

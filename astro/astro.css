@@ -1,0 +1,180 @@
+.dropbtn {
+  background-color:  #7952B3;
+  color: #FFC107;
+  padding: 16px;
+  font-size: 16px;
+  border: 10px solid #DDDDDD;
+  border-bottom: 10px solid #125D98;
+  border-top: 10px solid #3C8DAD;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F55C47;
+  border: 10px solid #FFC996;
+  border-top: 10px solid #FF8474;
+  border-bottom: 10px solid #583D72;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #9FE6A0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 10px solid #FFC93C;
+  border-top: 10px solid #DBF6E9;
+  border-bottom: 10px solid #9DDFD3;
+}
+
+.dropdown-content a:hover {
+  background-color: #693C72;
+  color: #C15050
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #D97642;
+  color: #D49D42;
+}
+
+p.dashed 
+{
+  border-style: dashed;
+  }
+  p 
+  {
+  border-bottom: solid #0073cf;
+  color:#a6d608;
+  font-family: "Times New Roman", Times, serif;
+  background-color: blue;
+  text-allign: center;
+  }
+  body
+  {
+    background-color:#520A7C;
+    }
+  a{
+    color:#EE712B;
+  }
+  img{
+    float: left;
+    border: 10px solid #0D5118;
+    border-top: 10px solid #33702C;
+    border-bottom: 10px solid #013001;
+      max-width: 100%;
+  height: auto;
+  }
+  h1{
+    color: #FAB445; 
+  }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/astro/astro.ico"), default;
+}
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(astro.ico);
+  width: 100px;
+  height: 100px;
+  }
+  html::-webkit-scrollbar-track{
+  background-color:  #7F8086;
+  border: 10px solid #41842B;
+  border-bottom: 10px solid #841F5F;
+  border-top: 10px solid #FFCA1C;
+  border-left: 10px solid #A5A5A5;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(astro.ico);
+  width: 30px;
+  height: 30px;
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode{
+  background-color: black;
+  color: white:
+}
+.dark-mode p{
+  background-color: black;
+  color: #FFD880;
+}
+.dark-mode h1{
+  color: #F14668;
+}
+.dark-mode .dropbtn{
+background-color: #342EAD;
+color: #EA6227; 
+ padding: 16px;
+  font-size: 16px;
+  border: 10px solid #EB4559;
+  border-top: 10px solid #F78259;
+  border-bottom: 10px solid #AEEFEC;
+  cursor: pointer;
+}
+.dark-mode .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #B590CA;
+  color: #F5CAB3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 10px solid #192965;
+  border-top: 10px solid #F0EFEF;
+  border-bottom: 10px solid #BBCFFF;
+}
+.dark-mode .dropdown-content a {
+  color: #A8D3DA;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 10px solid #8CBA51;
+  border-top: 10px solid #DEFF8B;
+  border-bottom: 10px solid #FBCEB5;
+  border-left: 10px solid #FF5D6C;
+}
+
+.dark-mode .dropdown-content a:hover {
+  background-color: #46185F;
+  color: #297CA0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #BBBBBB;
+  color: #E9EA77;
+}
+.dark-mode img{
+  border: 10px solid #FFAC8E;
+  border-top: 10px solid #FD7792;
+  border-bottom: 10px solid #3F4D71;
+  border-left: 10px solid #55AE95;
+}

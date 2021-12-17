@@ -1,0 +1,73 @@
+p.dashed {border-style: dashed;}
+p {
+  border-bottom: solid #E1E2AA;
+  color: #EAEAEA;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #EACA3A; 
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #932217;
+    border-top: 10px solid #11131A;
+    border-bottom: 10px solid #A26D15;
+      max-width: 100%;
+  height: auto;
+  }
+body{background-color: #B72403;}
+  h1{Color: #EF6E15;}
+  a{color: #DB9F30;}
+    html{
+  scroll-behavior: smooth; 
+  cursor: url("/duck/duck.ico"), default;
+}
+html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(duck.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #5F7583;
+  border: 10px solid #0F1111;
+  border-top: 10px solid #000000;
+  border-bottom: 10px solid #160F09;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(duck.ico);
+  width: 20px;
+  height: 20px; 
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #284B15;
+
+}
+.dark-mode h1{
+  color: #E5F7C3
+}
+.dark-mode img{
+  border: 10px solid #F8B500;
+  border-top: 10px solid #ECE8D9;
+  border-bottom: 10px solid #00ADB5;
+  border-left: 10px solid #393E46;
+}

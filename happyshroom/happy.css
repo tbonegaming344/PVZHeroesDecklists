@@ -1,0 +1,79 @@
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid red;
+  color:#bfdfec;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #12124A;
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #41494C;
+    border-top: 10px solid #14191D;
+    border-bottom: 10px solid #1D262D;
+    border-left: 10px solid #647272;
+     max-width: 100%;
+    height: auto;
+  }
+  h1{
+    color: #AB0303;
+  }
+body{
+  background-color:#ffa500;
+  }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/happyshroom/happy.ico"), default;
+}
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(happy.ico);
+  width: 100px;
+  height: 100px; 
+}
+html::-webkit-scrollbar-track{
+  background-color: #dc143c;
+  border: 10px solid #FC5105;
+  border-top: 10px solid #004300;
+  border-bottom: 10px solid #085506;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(happy.ico);
+  width: 20px;
+  height: 20px;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #225FB5;
+}
+.dark-mode h1{
+  color: #EFF9F9; 
+}
+.dark-mode a{
+  color: #073147;
+}
+.dark-mode img{
+  border: 10px solid #34495D;
+  border-top: 10px solid #2C3D4F;
+  border-bottom: 10px solid #EE7738;
+  border-left: 10px solid #F59D2A;
+}

@@ -1,0 +1,81 @@
+p.dashed {
+  border-style: dashed;
+  }
+  p {
+  border-bottom:solid #12947F;
+  color:#2FC4B2;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #A7551B;
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #BC0F17;
+    border-top: 10px solid #000000;
+    border-bottom: 10px solid #0C1119;
+    border-left: 10px solid #B62729;
+     max-width: 100%;
+    height: auto;
+  }
+body{
+  background-color:	#E71414;
+  }
+  h1{
+    Color: #F17808;
+    }
+  a{
+    color: #12947F;
+    }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/shyx/shyx.ico"), default;
+}
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(shyx.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #cf71af;
+  border: 10px solid #3CAE36;
+  border-top: 10px solid #D50202;
+  border-bottom: 10px solid #7F506B;
+} 
+html::-webkit-scrollbar-button{
+  background-image: url(shyx.ico);
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #199E0B;
+}
+.dark-mode h1{
+  color: #4A4B4C;
+}
+.dark-mode a{
+  color: #232228;
+}
+.dark-mode img{
+  border: 10px solid #AE6C76;
+  border-bottom: 10px solid #EBA4A5;
+  border-top: 10px solid #D3CBA7;
+}

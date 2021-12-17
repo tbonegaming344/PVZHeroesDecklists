@@ -1,0 +1,189 @@
+.dropbtn {
+  background-color: #4CAF50;
+  color: blue;
+  padding: 16px;
+  font-size: 16px;
+  border: 10px solid #020A0D;
+  border-top: 10px solid #E6E6E8;
+  border-bottom: 10px solid #AD0906;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #BD0F06;
+  color: #E5A347;
+  border: 10px solid #79BB7B;
+  border-top: 10px solid #FFFFFF;
+  border-bottom: 10px solid #C61D23;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #79BB7B;
+  padding: 12px 16px;
+  border: 10px solid #57397C;
+  border-top: 10px solid #E2783F;
+  border-bottom: 10px solid #7B258E; 
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid yellow;
+  color:#E69A8DFF;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #048A2B;
+  text-allign: center; 
+  }
+  img{ 
+    float: left;
+    border: 10px solid #563F32;
+    border-top: 10px solid #8C6F4A;
+    border-bottom: 10px solid #464946;
+     max-width: 100%;
+    height: auto;
+  }
+  h1{
+    color: #7A2C2A;
+  }
+  body{
+    background-color:#5F4B8BFF;
+    }
+  a{
+    color:yellow;
+    }
+html{
+  scroll-behavior: smooth; 
+  cursor: url("/lgtyqz/lg.ico"), default;
+}  
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(lg.ico);
+  width: 100px;
+  height: 100px; 
+}
+html::-webkit-scrollbar-track{
+  background-color:  #9b870c;
+  border: 10px solid #43131B;
+  border-top: 10px solid #561417;
+  border-bottom: 10px solid #351A17;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(lg.ico);
+  width: 20px;
+  height: 20px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #00583C;
+}
+.dark-mode h1{
+  color: #9C0408; 
+}
+.dark-mode a{
+  color: #427552;
+}
+.dark-mode img{
+  border: 10px solid #20716A;
+  border-top: 10px solid #23A393;
+  border-bottom: 10px solid #F4A9C7;
+  border-left: 10px solid #FFF78C;
+}
+.dark-mode .dropbtn{
+background-color: #177953;
+color: #D3E2DB; 
+ padding: 16px;
+  font-size: 16px;
+  border: 10px solid #562C65;
+  border-top: 10px solid #A4A4A4;
+  border-bottom: 10px solid #D8A436;
+  cursor: pointer;
+}
+.dark-mode .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #AAB2BA;
+  color: #083516;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 10px solid #F2F2F2;
+  border-top: 10px solid #C21F20;
+  border-bottom: 10px solid #2C4A90;
+}
+.dark-mode .dropdown-content a {
+  color: #0839C0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 10px solid #E1E0E1;
+  border-top: 10px solid #DE0808;
+  border-bottom: 10px solid #949FAD;
+}
+
+.dark-mode .dropdown-content a:hover {background-color: #005B3F;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #1C6633;
+}

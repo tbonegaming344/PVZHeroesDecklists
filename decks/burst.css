@@ -1,0 +1,72 @@
+p.dashed {
+  border-style: dashed;
+  }
+  p {
+  border-bottom:solid #841F5F;
+  color: #EF0703;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FFAB02;
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #FEFF9A;
+    border-top: 10px solid #6FE8C8;
+    border-bottom: 10px solid #85FEDE;
+    border-left: 10px solid #B7ABFB;
+  }
+  body{
+    background-color: #B93328;
+    }
+  h1{
+    Color: #B4B5B7;
+  }
+  a{
+    color: #A5A5A5;
+  }
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-color: #C91A0A;
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #199E0B;
+  border: 10px solid #E7BE0A;
+  border-top: 10px solid #061442;
+  border-bottom: 10px solid #AF8700;
+}
+html::-webkit-scrollbar-button{
+  background-color: #AE3218;
+  width: 20px;
+  height: 20px;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #E9007F;
+}
+.dark-mode h1{
+  color: #7CDFFF; 
+}
+.dark-mode a{
+  color: #D5FFFB;
+}

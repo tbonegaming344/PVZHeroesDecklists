@@ -1,0 +1,83 @@
+p.dashed {border-style: dashed;}
+  p {
+  border-bottom: solid #424926;
+  color: #33702C;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #013001;
+  text-align: center; 
+  }
+  img{
+    float: left;
+    border: 10px solid #00583C;
+    border-top: 10px solid #9C0408;
+    border-bottom: 10px solid #2E144D;
+    max-width: 100%;
+    height: auto;
+}
+ body{
+   background-color:  #0D5118;
+   }
+  h1{
+    Color: #1C6633;
+    }
+  a{
+    color: #626772;
+    }
+    html{
+  scroll-behavior: smooth; 
+  cursor: url("fusion.ico"), default;
+}
+
+html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(fusion.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #083516;
+  border: 10px solid #012AB7;
+  border-bottom: 10px solid #9A0207;
+  border-top: 10px solid #FBB719;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(fusion.ico);
+  width: 20px;
+  height: 20px;
+}
+
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #F1FA3C;
+}
+.dark-mode h1{
+  color: #979E8D; 
+}
+.dark-mode a{
+  color: #C49446;
+}
+.dark-mode img{
+  border:10px solid #0278AE;
+  border-top: 10px solid #51ADCF;
+  border-bottom: 10px solid #A5ECD7;
+  border-left: 10px solid #E8FFC1;
+}

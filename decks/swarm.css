@@ -1,0 +1,80 @@
+p.dashed {
+  border-style: dashed;
+  }
+  p {
+  border-bottom: solid #349FFF;
+  color: #0C0C0C;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #374D44;
+  text-align: center;
+  }
+  body{
+    background-color: #B93328;
+    }
+  h1{
+    Color: #B4B5B7;
+    }
+  a{
+    color: #2F374E;
+  }
+  img{
+    float: left;
+    border: 10px solid #EFA8E4;
+    border-top: 10px solid #F8E1F4;
+    border-bottom: 10px solid #FFF0F5;
+    border-bottom: 10px solid #97E5EF;
+  }
+   html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-color: #7070B0;
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #BB559E;
+  border: 10px solid #867760;
+  border-top: 10px solid #58664C;
+  border-bottom: 10px solid #3A3C37;
+  border-left: 10px solid #63211C;
+}
+html::-webkit-scrollbar-button{
+  background-color: #FF7402;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #B6EB7A;
+}
+.dark-mode h1{
+  color: #17706E;
+}
+.dark-mode a{
+  color: #FB7813;
+}
+.dark-mode img{
+  border: 10px solid #2FC4B2;
+  border-bottom: 10px solid #12947F;
+  border-top: 10px solid #E71414;
+  border-left: 10px solid #F17808;
+}

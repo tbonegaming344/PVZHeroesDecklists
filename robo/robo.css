@@ -1,0 +1,78 @@
+p.dashed {
+  border-style: dashed;
+}
+h1{
+  color: #B93328;
+}
+  p {
+  border-bottom: solid #8DC6FF;
+  color:rgb(228, 79, 128);
+  font-family: "Times New Roman", Times, serif;
+  background-color: #07050A;
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #C17E4A;
+    border-top: 10px solid #19191A;
+    border-bottom: 10px solid #2C5E6B;
+     max-width: 100%;
+    height: auto;
+  }
+  body{
+    background-color: #FF0000;
+  }
+  a{color: pink;}
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/robo/robo.ico"), default;
+}
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(robo.ico);
+  width: 100px;
+  height: 100px;
+}
+html::-webkit-scrollbar-track{
+  background-color:  #ff355e;
+  border: 10px solid #010101;
+  border-top: 10px solid #75D923;
+  border-bottom: 10px solid #276543;
+}
+html::-webkit-scrollbar-button{
+  background-image: url(robo.ico);
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #C17E4A;
+}
+.dark-mode h1{
+  color: #2C5E6B;
+}
+.dark-mode a{
+  color: #199E0B;
+}
+.dark-mode img{
+  border: 10px solid #9D712A;
+  border-bottom: 10px solid #FAB445;
+  border-top: 10px solid #101012;
+}

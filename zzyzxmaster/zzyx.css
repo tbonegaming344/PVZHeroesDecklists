@@ -1,0 +1,82 @@
+p.dashed {
+  border-style: dashed;
+  }
+  p {
+  border-bottom: solid #D7DFEA;
+  color:#146FA4;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #A29A8D;
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #073147;
+    border-top: 10px solid #6D7A82;
+    border-bottom: 10px solid #0B0F0F;
+    border-left: 10px solid #BC1900;
+    max-width: 100%;
+    height: auto;
+  }
+  body{
+    background-color:#01030F;
+  }
+  h1{
+    Color: #BC0F17;
+  }
+  a{
+    color: #2F374E;
+  }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/zzyzxmaster/x.ico"), default;
+}
+    html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(x.ico);
+  width: 100px;
+  height: 100px; 
+}
+html::-webkit-scrollbar-button{
+  background-image: url(x.ico);
+  width: 20px;
+  height: 20px;
+}
+html::-webkit-scrollbar-track{
+  background-color: #349FFF;
+  border: 10px solid #000513;
+  border-top: 10px solid #270000;
+  border-bottom: 10px solid #8A600E;
+  border-left: 10px solid #505050;
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #383121;
+}
+.dark-mode h1{
+  color: #70553E;
+}
+.dark-mode a{
+  color: #AA896A;
+}
+.dark-mode img{
+  border: 10px solid #070707;
+  border-top: 10px solid #201808;
+  border-bottom: 1opx solid #717171;
+}

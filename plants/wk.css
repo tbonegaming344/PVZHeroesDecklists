@@ -1,0 +1,87 @@
+p.dashed {
+  border-style: dashed;
+  }
+  p {
+  border-bottom:solid #D98C00;
+  color: #FFA400;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #000000;
+  text-align: center;
+  }
+  img{
+    float: left;
+    border: 10px solid #2EC1AC;
+    border-top: 10px solid #3E978B;
+    border-left: 10px solid #D2E603;
+    border-left: 10px solid #EFF48E; 
+  }
+  body{
+    background-color:#09009B;
+    }
+  a{
+    color:#D98C00;
+    }
+  h1{
+    color: #0F00FF;
+  }
+  html{
+  scroll-behavior: smooth; 
+  cursor: url("/plants/wk.ico"), default;
+}
+
+html::-webkit-scrollbar{
+  width: 40px;
+}
+html::-webkit-scrollbar-thumb{
+  background-image: url(wk.ico);
+  width: 100px;
+  height: 100px;}
+html::-webkit-scrollbar-track{
+  background-color: #e5ccc9;
+  border: 10px solid #F35588;
+  border-top: 10px solid #05DFD7;
+  border-bottom: 10px solid #A3F7BF;
+  border-left: 10px solid #FFF591;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+}}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode p{
+background-color: black;
+color: #FF5200;
+}
+.dark-mode h1{
+  color: #6F0000; 
+}
+.dark-mode a{
+  color: #00A1AB;
+}
+     .container {
+     position: relative;
+       width: 100%;
+      overflow: hidden;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+ .responsive-iframe {
+      position: absolute;
+        top: 0;
+        left: 0;
+       bottom: 0;
+        right: 0;
+        width: 100%;
+       height: 100%;
+        border: none;
+}
